@@ -1,0 +1,92 @@
+*::selection
+{
+    background: yellow;
+    color: #111;
+}
+
+body
+{
+    background: url(https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-26496.jpg?w=2000) no-repeat;
+  background-position: center;
+  width: 100%;
+  background-blend-mode: screen;
+
+}
+header h1
+{
+    color: white;
+    display: inline;
+    position: relative;
+    left: 40%;
+    font-size: 2.1em;
+
+}
+
+.container input
+{
+    position: relative;
+    width: 150px;
+    height: 250px;
+    background: #111;
+    color: white;
+    margin: 20px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 12px;
+}   
+.container a  
+{
+    color: red;
+    text-decoration: none;
+    
+}
+.container a:hover  input
+{
+    font-size: .9em;
+    position: relative;
+    bottom: 10px;
+    color: rgb(238, 134, 134);
+    transition: .3s ;
+    -webkit-box-shadow: 20px 30px 19px 13px rgba(0, 0, 0, 0.93);
+-moz-box-shadow: 20px 30px 19px 13px rgba(245, 245, 245, 0.93);
+box-shadow: 20px 15px 10px 0px rgba(29, 19, 19, 0.93);
+
+}
+.container input:hover
+{
+    border: 1px solid rgb(0, 206, 144);
+    animation: colorcambiar infinite 1s;
+
+
+}
+
+@keyframes colorcambiar
+{
+    0%{
+        background: #111;
+        color: aqua;
+    }
+}
+
+
+
+#juegoimg {
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    left: 30px;
+    top: 69px;
+    overflow: hidden;
+    opacity: 0;
+    transition: .3s;
+
+    }
+
+#juegoimg:hover
+{
+    width: 200px;
+    height: 250px;
+    left: 1px;
+    opacity: 1;
+    transition: .3s;
+}
